@@ -1,0 +1,106 @@
+// Base Layout Stylesheet
+// This is where your layout of the project will go
+// ========================================
+
+body {
+  background-color: $white;
+}
+
+.header {
+  &_img {
+    width: 20%;
+  }
+}
+
+.main {
+  padding: $spacer-m;
+
+  &__section {
+    margin: $spacer-lg $reset-0;
+  }
+}
+
+.colors {
+  display: inline-flex;
+  font-family: $secondary-font;
+  align-items: center;
+  width: 100%
+  justify-content: space-around;
+  text-align: center;
+
+  &-blue {
+    background-color: $blue;
+    height: 200px;
+    width: 200px;
+    justify-content: space-around;
+    border-radius: 50%;
+    border: 1px solid $black;
+  }
+
+  &-purple {
+    background-color: $purple;
+    height: 200px;
+    width: 200px;
+    justify-content: space-around;
+    border-radius: 50%;
+    border: 1px solid $black;
+  }
+
+  &-grey {
+    background-color: $grey;
+    height: 200px;
+    width: 200px;
+    justify-content: space-around;
+    border-radius: 50%;
+    border: 1px solid $black;
+  }
+
+  &-green {
+    background-color: $green;
+    height: 200px;
+    width: 200px;
+    justify-content: space-around;
+    border-radius: 50%;
+    border: 1px solid $black;
+  }
+
+  &-pink {
+    background-color: $pink;
+    height: 200px;
+    width: 200px;
+    justify-content: space-around;
+    border-radius: 50%;
+    border: 1px solid $black;
+  }
+
+  &-black {
+    background-color: $black;
+    height: 200px;
+    width: 200px;
+    justify-content: space-around;
+    border-radius: 50%;
+    border: 1px solid $black;
+  }
+
+  &-darkgrey {
+    background-color: $darkgrey;
+    height: 200px;
+    width: 200px;
+    justify-content: space-around;
+    border-radius: 50%;
+    border: 1px solid $black;
+  }
+
+  &-white {
+    background-color: $white;
+    height: 200px;
+    width: 200px;
+    justify-content: space-around;
+    border-radius: 50%;
+    border: 1px solid $black;
+  }
+}
+
+.item-container {
+    margin: $spacer-m $reset-0;
+}

@@ -1,0 +1,32 @@
+// Form Elements Stylesheet
+// ========================================
+
+// Label Styling -- Delete this if you are not using a label
+
+
+// Basic Form Input Styling
+.form {
+  font-family: $secondary-font;
+  color: $purple;
+
+  &_selection {
+    padding: 1%;
+  }
+
+  &_text {
+    padding: 1%;
+  }
+
+  &_error {
+    padding: 1%;
+    &-email {
+      border-style: none;
+      border-width: 2px;
+      border-color: $pink;
+      border-bottom-style: solid;
+    }
+  }
+
+}
+
+// Select Form Input Styling

@@ -1,0 +1,43 @@
+// Button Component Stylesheet
+// ========================================
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  padding: 2%;
+
+  &-primary {
+    background-color: $blue;
+    padding: 20%;
+    text-align: center;
+    width: 10%;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  &-secondary {
+    background-color: $purple;
+    padding: 20%;
+    text-align: center;
+    width: 10%;
+
+    &:hover {
+      opacity: .7;
+      min-width: 45px;
+    }
+  }
+
+  &-disabled {
+    background-color: $grey;
+    padding: 20%;
+    text-align: center;
+    width: 10%;
+  }
+}

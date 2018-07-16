@@ -1,0 +1,46 @@
+// Base Typography Stylesheet
+// This is where your base typography will go
+// ========================================
+
+h1 {
+  font-size: 1.5rem;
+  font-family: $primary-font;
+}
+
+h2 {
+  font-size: 1.25rem;
+  @include font-type($secondary-font, normal, bold);
+}
+
+h3, .subtitle {
+  font-size: 1.25rem;
+  @include font-type($secondary-font, italic, bold);
+}
+
+h4 {
+  font-size: 1.1rem;
+  @include font-type($secondary-font, normal, bold);
+}
+
+h5 {
+  font-size: 1.05rem;
+  @include font-type($secondary-font, italic, bold);
+}
+
+h6 {
+  font-size: 1rem;
+  @include font-type($secondary-font, italic, normal);
+}
+
+p {
+  font-size: 0.75rem;
+  font-family: $secondary-font;
+}
+
+a {
+  font-size: 0.75rem;
+  font-family: $secondary-font;
+  &:hover {
+    color: $blue;
+  }
+}
