@@ -4,7 +4,7 @@
 [The Link to My Pattern Library](http://nataliecalvo.com/project-1_part-2_calvo-natalie/elements.html)
 
 ###Resources
-I used these resources to help with my code"
+I used these resources to help with my code
 - [Flexbox](https://www.w3schools.com/css/css3_flexbox.asp)
 I used this website to refresh my knowledge of flexbox in collaboration with my notes from Advanced Web I.
 
