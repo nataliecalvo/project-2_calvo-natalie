@@ -1,0 +1,26 @@
+.modal {
+  position: relative;
+  width: 50%;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  background-color: $grey;
+  padding: 1%;
+  &_close {
+    align-self: flex-end;
+    width: 4%;
+  }
+  &_header {
+    margin-bottom: $spacer-m;
+    float: left;
+  }
+  &_action-list {}
+  &_item {
+    display: inline-flex;
+    justify-content: space-around;
+  }
+  &_input {
+    display: block;
+    margin: 1%;
+  }
+}

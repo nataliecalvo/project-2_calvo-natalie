@@ -3,7 +3,6 @@
 .chip {
   display: flex;
   align-items: center;
-
   &_avatar {
     width: 50px;
     min-width: 50px;
@@ -16,13 +15,11 @@
     justify-content: center;
     margin-right: 1%;
   }
-
   &_text-container {
     display: inline-flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
-
   &_text-title {
     font-weight: bold;
   }
