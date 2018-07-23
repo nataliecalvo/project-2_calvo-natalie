@@ -6,10 +6,11 @@ body {
   background-color: $purple;
   &_img {
     width: 20%;
+    float: left;
   }
   &_title {
-    text-align: center;
     padding-bottom: 2%;
+    margin-left: 30%;
   }
 }
 
@@ -21,7 +22,7 @@ body {
     text-align: center;
     &-item {
       display: inline;
-      margin: 5%;
+      margin: 2%;
     }
   }
 }
@@ -105,7 +106,47 @@ body {
     border: 1px solid $black;
   }
 }
-
 .item-container {
     margin: $spacer-m $reset-0;
 }
+
+.main {
+  font-weight: normal;
+  &_section {
+    &-intro {
+      text-align: center;
+      &_img {
+        display: none;
+      }
+      &_text {
+        background-image: url("../images/florence_cathedral.jpg");
+        height: 300px;
+        line-height: 130%;
+        padding: 2%;
+      }
+    }
+  }
+}
+
+.layer {
+  padding: 13% 0 13%;
+  background-color: rgba(128, 128, 128, 0.7);
+}
+
+//min-width: 500px
+  //&_section {
+    //&-introimg {
+          //display: inline-block;
+      //  width: 50%;
+    //  }
+    //  &-introtext {
+        //float: right;
+        //text-align: center;
+        //width: 50%;
+    //  }
+  //  }
+//}
+
+//.layer {
+//  display: none;
+//}
