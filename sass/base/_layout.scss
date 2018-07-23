@@ -112,20 +112,49 @@ body {
 
 .main {
   font-weight: normal;
-  &_section {
-    &-intro {
-      text-align: center;
-      &_img {
-        display: none;
-      }
-      &_text {
-        background-image: url("../images/florence_cathedral.jpg");
-        height: 300px;
-        line-height: 130%;
-        padding: 2%;
+  &-intro {
+    text-align: center;
+    &_img {
+      display: none;
+    }
+    &_text {
+      background-image: url("../images/florence_cathedral.jpg");
+      height: 300px;
+      line-height: 130%;
+      padding: 2%;
+    }
+  }
+  &_how {
+    margin-top: 5%;
+    display: flex;
+    &-text {
+      width: 70%;
+      padding: 4%;
+    }
+    &-img {
+      width: 20%;
+      float: right;
+      &_mockup {
+        width: 100%;
       }
     }
   }
+  &_list {
+    &-item {
+      list-style-type: decimal;
+    }
+  }
+  &-about {
+    text-align: center;
+    &_img {
+      display: none;
+    }
+    &_text {
+      background-image: url("../images/florence_cathedral.jpg");
+      height: 300px;
+      line-height: 130%;
+      padding: 2%;
+    }
 }
 
 .layer {
