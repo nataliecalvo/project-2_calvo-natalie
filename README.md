@@ -23,7 +23,7 @@ I used this website to refresh my knowledge of opacity in collaboration with my 
 [Natalie Calvo Project 2](https://github.com/nataliecalvo/project-2_calvo-natalie)
 
 #### Link to website
-[A link to my Project 2 Webpage](https://nataliecalvo.com/project-2_calvo-natalie)
+[A link to my Project 2 Webpage](http://nataliecalvo.com/project-2_calvo-natalie)
 
 #### Instructions on how to view
 1. `git clone` the repository to view it locally.
