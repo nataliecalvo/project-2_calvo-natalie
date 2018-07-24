@@ -19,20 +19,22 @@
         <li class="nav_list-item">Home</li>
         <li class="nav_list-item">About Us</li>
         <li class="nav_list-item">Contact Page</li>
-        <li class="nav_list-item"><button class="button-login"><img src="images/login.svg" alt="Login avatar to be replaced with your headshot onced logged in."><p>Login</p></button></li>
       </ul>
-        <div class="modal">
-          <img src="images/icon-close.svg" alt="close" class="modal_close">
-          <header class="modal_header">
+    </nav>
+    <nav class="loginnav">
+      <button class="button-login" id="modal_trigger"><img src="images/login.svg" alt="Login avatar to be replaced with your headshot onced logged in."/>Login</button>
+      <div class="modal" aria-hidden="true">
+        <img src="images/icon-close.svg" alt="close" class="modal_close">
+        <header class="modal_header">
             <h3>Login</h3>
             <p>Login to start discovering!</p>
-          </header>
-          <form class="modal_form">
+        </header>
+        <form class="modal_form">
             <input name="email" placeholder="Username" type="email" class="input modal_input">
             <input name="password" placeholder="Password" type="password" class="input modal_input">
             <ul class="button">
-              <li><button class="button-primary" type="submit"><p>Submit</p></button></li>
-              <li><button class="button-secondary"><p>Cancel<p></button></li>
+              <li><button class="button-primary" type="submit">Submit</button></li>
+              <li><button class="button-secondary">Cancel</button></li>
             </ul>
           </form>
         </div>
@@ -51,7 +53,7 @@
           </article>
           <article class="main-intro_cta">
             <h5>At 99 cents a month, it's a heck of a lot cheaper than a tour guide!</h5>
-            <button class="button-primary" type="submit"><p>Download the App</p></button>
+            <button class="button-primary" type="submit">Download the App</button>
           </article>
       </section>
       <section class="main_how">
@@ -86,5 +88,10 @@
           </article>
       </section>
     </main>
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="js/modal.js"></script>
   </body>
 </html>
