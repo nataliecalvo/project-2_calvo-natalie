@@ -17,26 +17,25 @@ I used this website to refresh my knowledge of border properties in collaboratio
 -[Opacity Property](https://www.w3schools.com/CSSref/css3_pr_opacity.asp)
 I used this website to refresh my knowledge of opacity in collaboration with my notes from my Web Principles course.
 
-# Project 2 - What is That? The Vacation App
+# Project 2 - What is That? The Vacation App - Homepage
 
 #### Link to repository
 [Natalie Calvo Project 2](https://github.com/nataliecalvo/project-2_calvo-natalie)
 
 #### Link to website
-[Website link coming soon]()
-<!-- Edit this for Project 2 - Part 3 -->
+[A link to my Project 2 Webpage](https://nataliecalvo.com/project-2_calvo-natalie)
 
 #### Instructions on how to view
 1. `git clone` the repository to view it locally.
 2. Use `sass --watch sass:css --style compressed` to get sass started.
 
----
-
-## Project 2 - Part 3
-
 #### Resources
+-[W3 Validator](https://validator.w3.org/)
+I used this validator to figure out that the quotation in my code were what was messing up my css. (If you're copying and pasting your css from your Google doc notes, make sure to fix the quotation marks because they will be backwards!)
 
 #### Deductions
+“I have reviewed the list of deductions for this
+project and in the syllabus”
 
 #### Comments
 
