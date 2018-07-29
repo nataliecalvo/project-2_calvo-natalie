@@ -112,9 +112,6 @@ body {
   font-weight: normal;
   &-intro {
     text-align: center;
-    &img {
-      display: none;
-    }
     &_img {
       display: none;
     }
@@ -157,6 +154,16 @@ body {
       line-height: 130%;
       padding: 2%;
     }
+    &_testimonial{
+      clear: both;
+      width: 100%;
+      &-alpha {
+        background-color: $blue;
+      }
+      &-beta {
+        background-color: $purple;
+      }
+    }
   }
 }
 
@@ -167,6 +174,10 @@ body {
 
 figcaption {
   display: none;
+}
+
+.chip_avatar {
+  background-image: url("../images/headshot.png");
 }
 
 @media (min-width: 500px) {
@@ -201,6 +212,7 @@ figcaption {
         background-image: none;
         padding: 1% 0 0;
         height: 225px;
+        padding-bottom: 5%;
       }
       &_figcaption {
         float: right;
