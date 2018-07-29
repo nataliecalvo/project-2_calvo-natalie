@@ -3,6 +3,8 @@
 .chip {
   display: flex;
   align-items: center;
+  width: 320px;
+  margin: 2% auto 1%;
   &_avatar {
     color: $black;
     border-radius: 50%;
