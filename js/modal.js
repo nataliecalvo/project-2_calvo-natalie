@@ -5,4 +5,10 @@ var $modalTrigger = $('#modal_trigger'),
 $modalTrigger.on('click', function(e) {
     e.preventDefault();
     $(this).siblings($modal).addClass($modalActive);
+    $modal.attr('aria-hidden', 'false');
+});
+
+$modalClose.on('click', function(e){
+  e.preventDefault();
+  $(this).parent($modal).removeClass($modalActive);
 });

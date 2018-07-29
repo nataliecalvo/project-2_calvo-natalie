@@ -1,3 +1,6 @@
+.loginnav {
+  margin-top: -50px;
+}
 .modal {
   position: relative;
   width: 50%;
@@ -8,6 +11,9 @@
   color: $black;
   padding: 1%;
   cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  display: none;
   &_close {
     align-self: flex-end;
     width: 4%;
@@ -24,5 +30,10 @@
   &_input {
     display: block;
     margin: 1%;
+  }
+  &-active {
+      opacity: 1;
+      visibility: visible;
+      display: inline-flex;
   }
 }
