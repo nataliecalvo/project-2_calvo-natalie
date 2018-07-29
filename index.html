@@ -16,13 +16,13 @@
     </header>
     <nav class="nav">
       <ul class="nav_list">
-        <li class="nav_list-item">Home</li>
-        <li class="nav_list-item">About Us</li>
-        <li class="nav_list-item">Contact Page</li>
+        <li class="nav_list-item"><a href="http://nataliecalvo.com/project-2_calvo-natalie/home">Home</a></li>
+        <li class="nav_list-item"><a href="http://nataliecalvo.com/project-2_calvo-natalie/about">About Us</a></li>
+        <li class="nav_list-item"><a href="http://nataliecalvo.com/project-2_calvo-natalie/contact">Contact Page</a></li>
       </ul>
     </nav>
     <nav class="loginnav">
-      <button class="button-login" id="modal_trigger"><img src="images/login.svg" alt="Login avatar to be replaced with your headshot onced logged in."/>Login</button>
+      <button class="button-login" id="modal_trigger"><img src="images/login.svg" alt="Login avatar to be replaced with your headshot onced logged in." class="button-login_img"/>Login</button>
       <div class="modal" aria-hidden="true">
         <img src="images/icon-close.svg" alt="close" class="modal_close">
         <header class="modal_header">
@@ -41,7 +41,7 @@
     </nav>
     <main class="main">
       <section class="main-intro">
-          <h3 class="main-intro_heading">What is That App?</h3>
+          <h3 class="main-intro_heading" id="home">What is That App?</h3>
           <article class="main-intro_text">
             <div class="layer">
               <p>Have you ever wondered what you're looking at during a vacation? You know it's got to have a great story, but without a tour guide, you have no way of knowing what it is.</p>
@@ -78,15 +78,16 @@
         </article>
       </section>
       <section class="main-about">
-          <h3 class="main-about_heading">About Us</h3>
-          <article class="main-about_img">
-            <img src="images/florence_cathedral.jpg" alt="A photograph of the dome of Florence Cathedral."/>
-          </article>
+          <h3 class="main-about_heading" id="about">About Us</h3>
           <article class="main-about_text">
             <div class="layer">
               <p> When you submit an image to our app, we do a reverse Google Image search to  gure out what you're most likely looking at. We then compile a library of resources we think will help you get the most out of your experience, like audio guides, YouTube videos and articles - all within 15 seconds! We're building a repository of places based on where are users most frequently visit so we can be even faster in the future!</p>
             </div>
           </article>
+          <figure>
+            <img src="images/big_ben.jpg" alt="A photograph of Big Ben in London." class="main-about_img"/>
+            <figcaption class="main-about_figcaption">Big Ben</figcaption>
+          </figure>
       </section>
     </main>
     <script

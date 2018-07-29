@@ -18,6 +18,7 @@ body {
   background-color: $purple;
   color: $white;
   font-family: $secondary-font;
+  padding-bottom: 1%;
   &_list {
     text-align: center;
     &-item {
@@ -184,6 +185,25 @@ figcaption {
         background-image: none;
         padding: 1% 0 0;
         height: 225px;
+      }
+    }
+    &-about {
+      &_img {
+        float: right;
+        padding-top: 2%;
+        width: 45%;
+        display: inline-flex;
+      }
+      &_text {
+        float: left;
+        text-align: center;
+        width: 45%;
+        background-image: none;
+        padding: 1% 0 0;
+        height: 225px;
+      }
+      &_figcaption {
+        float: right;
       }
     }
   }

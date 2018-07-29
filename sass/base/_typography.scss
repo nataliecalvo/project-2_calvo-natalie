@@ -37,7 +37,9 @@ p, ul li, ol li, button {
 a {
   font-size: 0.75rem;
   font-family: $secondary-font;
+  color: $darkgrey;
+  text-decoration: none;
   &:hover {
-    color: $blue;
+    color: $grey;
   }
 }

@@ -42,12 +42,20 @@
     float: right;
     border: none;
     cursor: pointer;
+    &_img {
+      width: 100%;
+    }
   }
 }
 @media (min-width: 450px) {
-  .button-login {
+  .button {
+    &-login {
+      &_img {
+        width: 75%
+      }
     width: 75px;
     height: 75px;
+    }
   }
 }
 
@@ -55,12 +63,5 @@
   .button-login {
     width: 100px;
     height: 100px;
-  }
-}
-
-@media (min-width: 800px) {
-  .button-login {
-    width: 150px;
-    height: 150px;
   }
 }
