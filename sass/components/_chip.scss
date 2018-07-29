@@ -4,18 +4,19 @@
   display: flex;
   align-items: center;
   &_avatar {
-    width: 50px;
-    min-width: 50px;
-    height: 50px;
-    background-color: $grey;
     color: $black;
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     margin-right: 1%;
-  }
-  &_text-container {
+    width: 100px;
+    min-width: 50px;
+    height: 100px;
+    background-image: url("../images/headshot.png")center center no-repeat;
+    background-size: cover;
+    }
+  &_text {
     display: inline-flex;
     flex-direction: column;
     flex-wrap: wrap;

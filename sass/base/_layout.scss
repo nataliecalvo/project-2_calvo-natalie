@@ -157,11 +157,14 @@ body {
     &_testimonial{
       clear: both;
       width: 100%;
+      margin-top: 2%;
       &-alpha {
         background-color: $blue;
+        padding: 2%;
       }
       &-beta {
         background-color: $purple;
+        padding: 2%;
       }
     }
   }
@@ -176,8 +179,10 @@ figcaption {
   display: none;
 }
 
-.chip_avatar {
-  background-image: url("../images/headshot.png");
+.chip {
+  &_avatar {
+    background-image: url("../images/headshot.png");
+  }
 }
 
 @media (min-width: 500px) {
