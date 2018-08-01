@@ -44,9 +44,11 @@
     cursor: pointer;
     &_img {
       width: 100%;
+      margin-top: -16%;
     }
   }
 }
+
 @media (min-width: 450px) {
   .button {
     &-login {
@@ -63,5 +65,16 @@
   .button-login {
     width: 100px;
     height: 100px;
+  }
+}
+
+@media (min-width: 800px) {
+  .button {
+    &-login {
+      &_img {
+        width: 100%;
+        margin-top: -29%;
+      }
+    }
   }
 }
