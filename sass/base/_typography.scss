@@ -28,7 +28,16 @@ h6 {
   @include font-type($secondary-font, italic, normal);
 }
 
-p, ul li, ol li, button {
+.heading_link {
+    font-size: 1rem;
+    @include font-type($secondary-font, italic, normal);
+    color: $blue;
+    &:hover {
+      color: $darkgrey;
+    }
+}
+
+p, ol li, ul li, button {
   font-size: 0.75rem;
   font-family: $secondary-font;
   font-weight: lighter;

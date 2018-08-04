@@ -149,6 +149,16 @@ body {
       line-height: 130%;
       padding: 2%;
     }
+    &_features {
+      margin-top: 2%;
+      h4 {
+        text-align: left;
+        margin-top: 1%;
+      }
+      h6 {
+        margin-top: 3%;
+      }
+    }
     &_testimonial {
       clear: both;
       width: 100%;
@@ -213,6 +223,21 @@ figcaption {
 .chip {
   &_avatar {
     background-image: url("../images/headshot.png");
+  }
+}
+
+
+.grid-container {
+  display: block;
+  text-align: left;
+  @media only screen and (min-width: 500px) {
+    display: grid;
+    grid-template-columns: [first] auto [second] auto [third] auto;
+    margin: 2%;
+    clear: both;
+  }
+  h5 {
+    padding-top: 3%;
   }
 }
 
