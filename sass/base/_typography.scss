@@ -4,12 +4,12 @@ h1 {
 }
 
 h2 {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   @include font-type($secondary-font, normal, bold);
 }
 
 h3, .subtitle {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   @include font-type($secondary-font, italic, bold);
 }
 
@@ -47,5 +47,9 @@ a {
 @media (min-width: 500px) {
   h1 {
     font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
   }
 }

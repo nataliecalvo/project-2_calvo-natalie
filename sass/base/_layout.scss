@@ -4,14 +4,15 @@ body {
 
 .header {
   background-color: $purple;
-  margin-bottom: 2%;
   &_img {
     width: 25%;
     float: left;
   }
   &_title {
     padding-bottom: 2%;
+    margin: auto;
     text-align: center;
+    width: 55%;
   }
 }
 
@@ -174,6 +175,9 @@ figcaption {
 @media (min-width: 400px) {
   .header {
     height: 110px;
+    &_img {
+      max-height: 110px;
+    }
   }
 }
 @media (min-width: 500px) {
@@ -221,8 +225,8 @@ figcaption {
   }
   .header {
     height: 150px;
-    &_title {
-      margin-left: 40%;
+    &_img {
+      max-height: 150px;
     }
   }
   h5 {
