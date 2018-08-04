@@ -31,7 +31,9 @@ I used this website to refresh my knowledge of opacity in collaboration with my 
 
 #### Resources
 -[W3 Validator](https://validator.w3.org/)
-I used this validator to figure out that the quotation in my code were what was messing up my css. (If you're copying and pasting your css from your Google doc notes, make sure to fix the quotation marks because they will be backwards!)
+I used this validator to figure out that the quotation in my code were what was messing up my css. (If you're copying and pasting your css from your Google doc notes, make sure to fix the quotation marks because they will be backwards!
+-[Hamburger Menu Codepen](https://codepen.io/createlyn/pen/xJYmZx)
+I used this Codepen made by my lovely teacher to help make a hamburger menu!
 
 #### Deductions
 “I have reviewed the list of deductions for this

@@ -13,31 +13,34 @@
         <h1>What is That?</h1>
         <h2>The Vacation App</h2>
       </div>
+      <nav class="loginnav">
+        <button class="button-login" id="modal_trigger"><img src="images/login.svg" alt="Login avatar to be replaced with your headshot onced logged in." class="button-login_img"/>Login</button>
+        <div class="modal" aria-hidden="true">
+          <img src="images/icon-close.svg" alt="close" class="modal_close">
+          <header class="modal_header">
+              <h3>Login</h3>
+              <p>Login to start discovering!</p>
+          </header>
+          <form class="modal_form">
+              <input name="email" placeholder="Username" type="email" class="input modal_input">
+              <input name="password" placeholder="Password" type="password" class="input modal_input">
+              <ul class="button">
+                <li><button class="button-primary" type="submit">Submit</button></li>
+                <li><button class="button-secondary">Cancel</button></li>
+              </ul>
+            </form>
+          </div>
+      </nav>
     </header>
     <nav class="nav">
+      <div class="nav_container">
+        <div class="nav_button">Menu</div>
+       </div>
       <ul class="nav_list">
         <li class="nav_list-item"><a href="#home">Home</a></li>
         <li class="nav_list-item"><a href="#about">About Us</a></li>
         <li class="nav_list-item"><a href="#contact">Contact Page</a></li>
       </ul>
-    </nav>
-    <nav class="loginnav">
-      <button class="button-login" id="modal_trigger"><img src="images/login.svg" alt="Login avatar to be replaced with your headshot onced logged in." class="button-login_img"/>Login</button>
-      <div class="modal" aria-hidden="true">
-        <img src="images/icon-close.svg" alt="close" class="modal_close">
-        <header class="modal_header">
-            <h3>Login</h3>
-            <p>Login to start discovering!</p>
-        </header>
-        <form class="modal_form">
-            <input name="email" placeholder="Username" type="email" class="input modal_input">
-            <input name="password" placeholder="Password" type="password" class="input modal_input">
-            <ul class="button">
-              <li><button class="button-primary" type="submit">Submit</button></li>
-              <li><button class="button-secondary">Cancel</button></li>
-            </ul>
-          </form>
-        </div>
     </nav>
     <main class="main">
       <section class="main-intro">
@@ -149,5 +152,6 @@
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
   <script src="js/modal.js"></script>
+  <script src="js/main.js"></script>
   </body>
 </html>

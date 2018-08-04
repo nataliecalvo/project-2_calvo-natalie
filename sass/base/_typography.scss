@@ -37,9 +37,15 @@ p, ul li, ol li, button {
 a {
   font-size: 0.75rem;
   font-family: $secondary-font;
-  color: $darkgrey;
+  color: $grey;
   text-decoration: none;
   &:hover {
-    color: $grey;
+    color: $darkgrey;
+  }
+}
+
+@media (min-width: 500px) {
+  h1 {
+    font-size: 2rem;
   }
 }
