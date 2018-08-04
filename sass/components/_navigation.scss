@@ -3,13 +3,10 @@
     clear: both;
     @media only screen and (min-width: 500px) {
       display: flex;
-      justify-content: space-between;
+      margin: auto;
   }
   &_container {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-top: 20%;
     clear: both;
     @media only screen and (min-width: 500px) {
       width: auto;
@@ -31,7 +28,6 @@
       &:hover {
         opacity: 0.7;
       }
-
       @media only screen and (min-width: 500px) {
         display: none;
       }
@@ -46,6 +42,7 @@
         display: flex;
         align-items: center;
         width: 100%;
+        justify-content: space-around;
       }
      &-active {
         background-color: $purple;
