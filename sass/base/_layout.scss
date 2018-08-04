@@ -131,6 +131,13 @@ body {
       list-style-type: decimal;
     }
   }
+  &-contact {
+    clear: both;
+    margin-top: 3%;
+    &_heading {
+      text-align: center
+    }
+  }
   &-about {
     text-align: center;
     &_img {
@@ -157,9 +164,16 @@ body {
     }
   }
 }
-.contact {
-  width: 5%;
+
+.social {
+  margin: auto;
+  text-align: center;
+  &_icons {
+    width: 3%;
+    padding: 1%;
+  }
 }
+
 .layer {
   padding: 13% 0 13%;
   background-color: rgba(128, 128, 128, 0.7);
