@@ -17,10 +17,10 @@
         <button class="button-login" id="modal_trigger"><img src="images/login.svg" alt="Login avatar to be replaced with your headshot onced logged in." class="button-login_img"/>Login</button>
         <div class="modal" aria-hidden="true">
           <img src="images/icon-close.svg" alt="close" class="modal_close">
-          <header class="modal_header">
+          <article class="modal_header">
               <h3>Login</h3>
               <p>Login to start discovering!</p>
-          </header>
+          </article>
           <form class="modal_form">
               <input name="email" placeholder="Username" type="email" class="input modal_input">
               <input name="password" placeholder="Password" type="password" class="input modal_input">
@@ -94,7 +94,7 @@
           <article class="main-about_testimonial">
             <div class="main-about_testimonial-alpha">
               <p>I recently took a trip to Italy and used What is That? constantly. I don’t speak Italian, so, I couldn’t ask people about what I was looking at. The app helped me learn the history of every building and artwork that caught my eye. Without it, I don’t think I would have enjoyed the trip anywhere near as much.</p>
-              <article class="chip">
+              <div class="chip">
                 <div class="chip_avatar">
                     <p class="chip_avatar-alpha"></p>
                 </div>
@@ -105,7 +105,7 @@
               </div>
               <div class="main-about_testimonial-beta">
                 <p>I speak English and Spanish. On this trip to Cambodia, signs are in Khmer, and I don't understand any of it. What is That? has helped me navigate my vacation and has made it a lot easier for me to appreciate the beauty and history behind this country. I will de nitely keep my membership active for future vacations.</p>
-                <article class="chip">
+                <div class="chip">
                   <div class="chip_avatar">
                     <p class="chip_avatar-beta"></p>
                   </div>
@@ -113,8 +113,8 @@
                     <p class="chip_text-title">Christy Pina</p>
                     <p class="chip_text-description">Currently exploring in Cambodia</p>
                   </div>
-              </article>
-            </div>
+                </div>
+              </div>
           </article>
       </section>
       <section class="main-contact" id="contact">
@@ -148,6 +148,18 @@
         </article>
       </section>
     </main>
+    <footer class="footer">
+      <nav class="nav">
+        <ul class="nav_list">
+          <li class="nav_list-item"><a href="#home">Home</a></li>
+          <li class="nav_list-item"><a href="#about">About Us</a></li>
+          <li class="nav_list-item"><a href="#contact">Contact Page</a></li>
+        </ul>
+      </nav>
+      <div class="social"><a href="facebook.com"><img class="social_icons" src="images/facebook.svg" alt="This is the social media icon for the Facebook platform"/></a><a href="twitter.com"><img class="social_icons" src="images/twitter.svg" alt="This is the social media icon for the Twitter platform"/></a><a href="instagram.com"><img class="social_icons" src="images/instagram.svg" alt="This is the social media icon for the Instagram platform"/></a></div>
+      <img class="footer_img" src="images/logo.png" alt="This is the What is That? The Vacation App logo. It contains a cartoon camera and a polaroid of the Collosseum."/>
+      <p>Copyright &copy; 2018 What is That?, Inc.</p>
+    </footer>
     <script
   src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

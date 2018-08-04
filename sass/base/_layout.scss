@@ -216,6 +216,17 @@ figcaption {
   }
 }
 
+.footer {
+  background-color: $purple;
+  color: $white;
+  text-align: center;
+  padding: 3% 0 3%;
+  &_img {
+    max-width: 25%;
+    margin: 0 37% 0 37%;
+  }
+}
+
 @media (min-width: 400px) {
   .header {
     height: 110px;
