@@ -191,6 +191,11 @@ body {
 
 form {
   display: inline;
+  &_selection {
+    &-label {
+      display: block;
+    }
+  }
 }
 
 input[type=text] {

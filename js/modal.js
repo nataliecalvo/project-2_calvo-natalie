@@ -12,3 +12,19 @@ $modalClose.on('click', function(e){
   e.preventDefault();
   $(this).parent($modal).removeClass($modalActive);
 });
+
+$(function(){
+  $('.input').keyup(function() {
+    var empty = false;
+    $('.input').each(function(){
+      if ($(this).val() == '') {
+        empty = true;
+      }
+    });
+    if (empty) {
+      $('#login').attr('disabled', 'disabled').hasClass('.button-disabled').removeClass('button-primary');
+    } else {
+      $('#login').removeAttr('disabled').addClass('button-primary').removeClass('button-disabled');
+    }
+  });
+})()
