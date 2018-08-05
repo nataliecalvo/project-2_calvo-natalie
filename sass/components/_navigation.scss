@@ -49,10 +49,8 @@
         background-color: $purple;
         width: 200px;
         display: block;
+        float: right;
         transition: 2s display ease-in-out;
-        position: absolute;
-        left: 0;
-        right: 0;
         line-height: 135%;
       }
       &-item {
