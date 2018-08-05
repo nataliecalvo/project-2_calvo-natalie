@@ -13,12 +13,12 @@
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
     <script src="js/flowtype.js"></script>
-    <script src="js/main.js"></script>
     <script type="text/javascript" src="js/tooltipster.bundle.min.js"></script>
     <script>
       $(document).ready(function() {
           $('.tooltip').tooltipster();
       });
+      $('body').flowtype();
     </script>
   </head>
   <body>
@@ -159,7 +159,12 @@
       <section class="main-contact" id="contact">
         <h3 class="main-contact_heading">Contact Us</h3>
         <div class="social"><a href="facebook.com"><img class="social_icons" src="images/facebook.svg" alt="This is the social media icon for the Facebook platform"/></a><a href="twitter.com"><img class="social_icons" src="images/twitter.svg" alt="This is the social media icon for the Twitter platform"/></a><a href="instagram.com"><img class="social_icons" src="images/instagram.svg" alt="This is the social media icon for the Instagram platform"/></a></div>
+        <!--When you mouseover or mouseout on the text below, fun things happen.-->
+        <div class="share"></div>
         <p>If you've got questions, concerns or feedback about our app we're always happy to hear it! We typically respond to messages within 48 hours!</p>
+        <!--The below text has been added using JavaScript.-->
+        <div id="welcome"></div>
+        <div id="message"></div>
         <div class="form">
           <div class="form_text">
             <input type="text" name="name" class="form_text-name" placeholder="Full Name" required/>
@@ -202,7 +207,7 @@
       <img class="footer_img" src="images/logo.png" alt="This is the What is That? The Vacation App logo. It contains a cartoon camera and a polaroid of the Collosseum."/>
       <p>Copyright &copy; 2018 What is That?, Inc.</p>
     </footer>
+  <script src="js/main.js"></script>
   <script src="js/modal.js"></script>
-  $('body').flowtype();
   </body>
 </html>

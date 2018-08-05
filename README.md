@@ -37,6 +37,8 @@ I used this Codepen made by my lovely teacher to help make a hamburger menu!
 -[FlowType jQuery plugin](http://simplefocus.com/flowtype/) I used the FlowType jQuery plugin on this website.
 -[Tooltipster jQuery plugin](http://iamceege.github.io/tooltipster/)
 I used the Tooltipster plugin on the figcaption for the Florence Cathedral to give users a fun fact about the cathedral.
+- I added custom jQuery in the contact section. Right below the social media icons, I appended text about sharing vacation photos on social. I also added custom events through which when you mouseover, the text turns to italic and when you mouseout the text becomes highlighted in blue. This jQuery can be found in the main.js file.
+-I also added text within the contact section using JavaScript. This Javascript can be found in the main.js file.
 
 #### Deductions
 “I have reviewed the list of deductions for this
