@@ -34,6 +34,9 @@ I used this website to refresh my knowledge of opacity in collaboration with my 
 I used this validator to figure out that the quotation in my code were what was messing up my css. (If you're copying and pasting your css from your Google doc notes, make sure to fix the quotation marks because they will be backwards!
 -[Hamburger Menu Codepen](https://codepen.io/createlyn/pen/xJYmZx)
 I used this Codepen made by my lovely teacher to help make a hamburger menu!
+-[FlowType jQuery plugin](http://simplefocus.com/flowtype/) I used the FlowType jQuery plugin on this website.
+-[Tooltipster jQuery plugin](http://iamceege.github.io/tooltipster/)
+I used the Tooltipster plugin on the figcaption for the Florence Cathedral to give users a fun fact about the cathedral.
 
 #### Deductions
 “I have reviewed the list of deductions for this

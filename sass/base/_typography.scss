@@ -53,6 +53,12 @@ a {
   }
 }
 
+.nav_list-item {
+  &:hover {
+    border-bottom: 10px dotted $darkgrey;
+  }
+}
+
 @media (min-width: 500px) {
   h1 {
     font-size: 2rem;
