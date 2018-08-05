@@ -1,5 +1,8 @@
 .loginnav {
   margin-top: -50px;
+  h6 {
+    font-size: .65rem;
+  }
 }
 .modal {
   position: relative;
@@ -19,7 +22,7 @@
     width: 4%;
   }
   &_header {
-    margin-bottom: $spacer-m;
+    margin-bottom: 15px;
     float: left;
   }
   &_action-list {}
