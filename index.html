@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>What is That? The Vacation App</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="css/main.css" rel="stylesheet"/>
     <link href="css/simpletextrotator.css" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="css/tooltipster.bundle.min.css" />
     <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
-    <link href="https://fonts.googleapis.com/css?family=Carter+One|Montserrat" rel="stylesheet"/>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
     <script
     src="http://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
     <script src="js/flowtype.js"></script>
-    <script type="text/javascript" src="js/tooltipster.bundle.min.js"></script>
+    <script src="js/tooltipster.bundle.min.js"></script>
     <script>
       $(document).ready(function() {
           $('.tooltip').tooltipster();
@@ -29,13 +31,13 @@
         <h2>The Vacation App</h2>
       </div>
       <nav class="loginnav">
-        <button class="button-login" id="modal_trigger"><img src="images/login.svg" alt="Login avatar to be replaced with your headshot onced logged in." class="button-login_img"/><h6>Login</h6></button>
+        <button class="button-login" id="modal_trigger"><img src="images/login.svg" alt="Login avatar to be replaced with your headshot onced logged in." class="button-login_img"/>Login</button>
         <div class="modal" aria-hidden="true">
           <img src="images/icon-close.svg" alt="close" class="modal_close">
-          <article class="modal_header">
+          <div class="modal_header">
               <h3>Login</h3>
               <p>Login to start discovering!</p>
-          </article>
+          </div>
           <form class="modal_form">
               <input name="email" placeholder="Username" type="email" class="input modal_input">
               <input name="password" placeholder="Password" type="password" class="input modal_input">
@@ -52,7 +54,7 @@
       <ul class="nav_list">
         <li class="nav_list-item"><a href="#home">Home</a></li>
         <li class="nav_list-item"><a href="#about">About Us</a></li>
-        <li class="nav_list-item"><a href="#contact">Contact Page</a></li>
+        <li class="nav_list-item"><a href="#contact">Contact Us</a></li>
       </ul>
     </nav>
     <main class="main">
@@ -132,8 +134,6 @@
             </div>
           </article>
           <article class="main-about_features">
-            <h1>What is That</h1>
-            <h2>The Vacation App</h2>
             <h4>Top Features</h4>
             <p>Our top app features are image recognition, location information and photo/content storage!</p>
             <div class="grid-container">
@@ -195,12 +195,12 @@
       </section>
     </main>
     <footer class="footer">
-      <h3>We hope you choose to start your adventure with us!</h3>
       <nav class="nav">
+        <h3>We hope you choose to start your adventure with us!</h3>
         <ul class="nav_list">
-          <li class="nav_list-item"><a href="#home"><h4>Home</h4></a></li>
-          <li class="nav_list-item"><a href="#about"><h4>About Us</h4></a></li>
-          <li class="nav_list-item"><a href="#contact"><h4>Contact Page</h4></a></li>
+          <li class="nav_list-item"><a href="#home">Home</a></li>
+          <li class="nav_list-item"><a href="#about">About Us</a></li>
+          <li class="nav_list-item"><a href="#contact">Contact Us</a></li>
         </ul>
       </nav>
       <div class="social"><a href="facebook.com"><img class="social_icons" src="images/facebook.svg" alt="This is the social media icon for the Facebook platform"/></a><a href="twitter.com"><img class="social_icons" src="images/twitter.svg" alt="This is the social media icon for the Twitter platform"/></a><a href="instagram.com"><img class="social_icons" src="images/instagram.svg" alt="This is the social media icon for the Instagram platform"/></a></div>

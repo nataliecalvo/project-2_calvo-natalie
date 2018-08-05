@@ -89,9 +89,11 @@ body {
     border: 1px solid $black;
   }
 }
+
 .item-container {
     margin: 15px;
 }
+
 .main {
   padding: 15px;
   clear: both;
@@ -268,6 +270,7 @@ figcaption {
     }
   }
 }
+
 @media (min-width: 500px) {
   .main {
     &-intro {
@@ -307,20 +310,24 @@ figcaption {
       }
     }
   }
+
   .layer {
     background-color: $white;
     padding: 0;
   }
+
   .header {
     height: 150px;
     &_img {
       max-height: 150px;
     }
   }
+
   h5 {
     clear: both;
     padding-top: 5%;
   }
+
   figcaption {
     font-style: italic;
     float: left;
@@ -379,6 +386,7 @@ figcaption {
     }
   }
 }
+
 @media (min-width: 850px) {
   .main {
     &-about {
@@ -390,6 +398,7 @@ figcaption {
     }
   }
 }
+
 @media (min-width: 950px) {
   .main {
     &-about {
