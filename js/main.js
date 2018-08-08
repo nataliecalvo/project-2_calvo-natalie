@@ -37,3 +37,8 @@ $(function(){
     }
   });
 })()
+
+  $(document).ready(function() {
+      $('.tooltip').tooltipster();
+  });
+  $('body').flowtype();
