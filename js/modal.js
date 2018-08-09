@@ -14,17 +14,17 @@ $modalClose.on('click', function(e){
 });
 
 $(function(){
-  $('.input').keyup(function() {
+  $('.modal_input').keyup(function() {
     var empty = false;
-    $('.input').each(function(){
+    $('.modal_input').each(function(){
       if ($(this).val() == '') {
         empty = true;
       }
     });
     if (empty) {
-      $('#login').attr('disabled', 'disabled').hasClass('.button-disabled').removeClass('button-primary');
+      $('#login').attr('disabled', 'disabled');
     } else {
-      $('#login').removeAttr('disabled').addClass('button-primary').removeClass('button-disabled');
+      $('#login').removeAttr('disabled').removeClass('button-disabled').addClass('button-primary');
     }
   });
-})()
+})

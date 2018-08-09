@@ -25,6 +25,9 @@ I used this website to refresh my knowledge of opacity in collaboration with my 
 #### Link to website
 [A link to my Project 2 Webpage](http://nataliecalvo.com/project-2_calvo-natalie)
 
+#### Link to my commit of the javascript code in the main.js file.
+[A link to my Project 2 Webpage](https://github.com/nataliecalvo/project-2_calvo-natalie/commit/48067433a737a02ac91745bda028d72f768bf247)
+
 #### Instructions on how to view
 1. `git clone` the repository to view it locally.
 2. Use `sass --watch sass:css --style compressed` to get sass started.

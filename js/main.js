@@ -23,22 +23,17 @@ var elMessage = document.getElementById('message');
 elMessage.innerHTML = message;
 
 $(function(){
-  $('.input').keyup(function() {
+  $('.form_text input').keyup(function() {
     var empty = false;
-    $('.input').each(function(){
+    $('.form_text input').each(function(){
       if ($(this).val() == '') {
         empty = true;
       }
     });
     if (empty) {
-      $('#send').attr('disabled', 'disabled').hasClass('.button-disabled').removeClass('button-primary');
+      $('#send').attr('disabled', 'disabled');
     } else {
-      $('#send').removeAttr('disabled').addClass('button-primary').removeClass('button-disabled');
+      $('#send').removeAttr('disabled').removeClass('button-disabled').addClass('button-primary');
     }
   });
-})()
-
-  $(document).ready(function() {
-      $('.tooltip').tooltipster();
-  });
-  $('body').flowtype();
+})

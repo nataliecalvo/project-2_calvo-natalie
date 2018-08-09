@@ -32,9 +32,16 @@
         display: none;
       }
   }
-  &_list {
+   &_footer {
       list-style: none;
+      background-color: $purple;
+      transition: 2s display ease-in-out;
+      text-align: center;
+      display: flex
+    }
+    &_list {
       display: none;
+      list-style: none;
       background-color: $purple;
       transition: 2s display ease-in-out;
       text-align: center;
@@ -45,6 +52,7 @@
         justify-content: space-around;
         padding: 3% 0 3%;
       }
+    }
      &-active {
         background-color: $purple;
         width: 200px;
