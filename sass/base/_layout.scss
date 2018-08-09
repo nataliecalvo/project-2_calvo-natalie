@@ -5,9 +5,21 @@ body {
 .header {
   background-color: $purple;
   height: 90px;
+  @media only screen and (min-width: 500px) {
+    height: 110px;
+  }
+  @media only screen and (min-width: 500px) {
+    height: 150px;
+  }
   &_img {
     width: 25%;
     float: left;
+    @media only screen and (min-width: 400px){
+      max-height: 110px;
+    }
+    @media only screen and (min-width: 500px){
+      max-height: 150px;
+    }
   }
   &_title {
     padding-bottom: 2%;
@@ -104,12 +116,32 @@ body {
     text-align: center;
     &_img {
       display: none;
+      @media only screen and (min-width: 500px) {
+        float: left;
+        padding-top: 2%;
+        width: 45%;
+        display: inline-flex;
+      }
+      @media only screen and (min-width: 650px) {
+        padding-top: 1%;
+      }
     }
     &_text {
       background-image: url("../images/florence_cathedral.jpg");
       height: 300px;
       line-height: 130%;
       padding: 2%;
+      @media only screen and (min-width: 500px) {
+        float: right;
+        text-align: center;
+        width: 45%;
+        background-image: none;
+        padding: 1% 0 0;
+        height: 225px;
+      }
+      @media only screen and (min-width: 650px) {
+        line-height: 130%;
+      }
     }
   }
   &_how {
@@ -142,14 +174,40 @@ body {
   }
   &-about {
     text-align: center;
+    &_figcaption {
+      @media only screen and (min-width: 500px) {
+        float: right;
+      }
+      @media only screen and (min-width: 550px) {
+        margin-top: -30px;
+      }
+      @media only screen and (min-width: 600px) {
+        margin-top: 0;
+      }
+    }
     &_img {
       display: none;
+      @media only screen and (min-width: 500px) {
+        float: right;
+        padding-top: 2%;
+        width: 45%;
+        display: inline-flex;
+      }
     }
     &_text {
       background-image: url("../images/big_ben.jpg");
       height: 300px;
       line-height: 130%;
       padding: 2%;
+      @media only screen and (min-width: 500px) {
+        float: left;
+        text-align: center;
+        width: 45%;
+        background-image: none;
+        padding: 1% 0 0;
+        height: 225px;
+        padding-bottom: 5%;
+      }
     }
     &_features {
       margin-top: 2%;
@@ -168,6 +226,16 @@ body {
       clear: both;
       width: 100%;
       padding-top: 2%;
+      @media only screen and (min-width: 650px) {
+        display: grid;
+        grid-template-columns: [first] auto [second] auto;
+      }
+      &-alpha, &-beta {
+        @media-only screen and (min-width: 650px){
+          width: 46%;
+          height: 170px;
+        }
+      }
       &-alpha {
         background-color: $blue;
         padding: 2%;
@@ -229,10 +297,21 @@ select {
 .layer {
   padding: 13% 0 13%;
   background-color: rgba(128, 128, 128, 0.7);
+  @media only screen and (min-width: 500px) {
+    background-color: $white;
+    padding: 0;
+  }
 }
 
 figcaption {
   display: none;
+  @media only screen and (min-width: 500px) {
+    font-style: italic;
+    float: left;
+    clear: both;
+    margin-top: -50px;
+    display: inline-block;
+  }
 }
 
 .chip {
@@ -264,154 +343,5 @@ figcaption {
   &_img {
     max-width: 25%;
     margin: 0 37% 0 37%;
-  }
-}
-
-@media (min-width: 400px) {
-  .header {
-    height: 110px;
-    &_img {
-      max-height: 110px;
-    }
-  }
-}
-
-@media (min-width: 500px) {
-  .main {
-    &-intro {
-      &_img {
-        float: left;
-        padding-top: 2%;
-        width: 45%;
-        display: inline-flex;
-      }
-      &_text {
-        float: right;
-        text-align: center;
-        width: 45%;
-        background-image: none;
-        padding: 1% 0 0;
-        height: 225px;
-      }
-    }
-    &-about {
-      &_img {
-        float: right;
-        padding-top: 2%;
-        width: 45%;
-        display: inline-flex;
-      }
-      &_text {
-        float: left;
-        text-align: center;
-        width: 45%;
-        background-image: none;
-        padding: 1% 0 0;
-        height: 225px;
-        padding-bottom: 5%;
-      }
-      &_figcaption {
-        float: right;
-      }
-    }
-  }
-
-  .layer {
-    background-color: $white;
-    padding: 0;
-  }
-
-  .header {
-    height: 150px;
-    &_img {
-      max-height: 150px;
-    }
-  }
-
-  h5 {
-    clear: both;
-    padding-top: 5%;
-  }
-
-  figcaption {
-    font-style: italic;
-    float: left;
-    clear: both;
-    margin-top: -50px;
-    display: inline-block;
-  }
-}
-
-@media (min-width: 550px) {
-  figcaption {
-    margin-top: -30px;
-    }
-}
-
-@media (min-width: 600px) {
-  figcaption {
-    margin-top: 0;
-  }
-}
-
-@media (min-width: 650px) {
-  .main {
-    &-intro {
-      &_img {
-        padding-top: 1%;
-      }
-      &_text {
-        line-height: 130%;
-      }
-    }
-    &-about {
-      &_testimonial {
-        &-alpha, &-beta {
-          width: 46%;
-          height: 170px;
-        }
-        &-beta {
-          float: right;
-          clear: none;
-          margin-top: -195px;
-        }
-      }
-    }
-  }
-}
-
-@media (min-width: 750px) {
-  .main {
-    &-about {
-      &_testimonial {
-        &-beta {
-          margin-top: -200px;
-        }
-      }
-    }
-  }
-}
-
-@media (min-width: 850px) {
-  .main {
-    &-about {
-      &_testimonial {
-        &-beta {
-          margin-top: -205px;
-        }
-      }
-    }
-  }
-}
-
-@media (min-width: 950px) {
-  .main {
-    &-about {
-      &_testimonial {
-        &-beta {
-          margin-top: -208px;
-        }
-      }
-    }
   }
 }
