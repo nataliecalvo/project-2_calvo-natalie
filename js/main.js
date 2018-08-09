@@ -3,20 +3,10 @@ $(function() {
   });
 });
 
-$(".share").append("<p>Tag us in your vacation photos on insta!</p>");
-$(document).ready(function(){
-    $(".share").mouseover(function(){
-        $(".share").css("font-style", "italic");
-    });
-    $(".share").mouseout(function(){
-        $(".share").css("background-color", "skyblue");
-    });
-});
-
 var welcome;
 var message;
 welcome = "<h5>Welcome to the What is That? Vacation App Website!</h5>";
-message = "<p>We're excited that you want to get to know the world around you. Don't be afraid to drop us a note with questions or feedback.</p>";
+message = "<p>If you've got questions, concerns or feedback about our app we're always happy to hear it! We typically respond to messages within 48 hours!</p>";
 var elWelcome = document.getElementById('welcome');
 elWelcome.innerHTML = welcome;
 var elMessage = document.getElementById('message');

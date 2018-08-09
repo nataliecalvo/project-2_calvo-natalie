@@ -5,17 +5,18 @@
   margin: 2% auto 1%;
   &_avatar {
     color: $black;
-    border-radius: 50%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     margin-right: 1%;
-    width: 75px;
-    min-width: 50px;
-    height: 75px;
-    background-image: url("../images/headshot.png")center center no-repeat;
-    background-size: cover;
+    &-alpha, &-beta {
+      width: 75px;
+      min-width: 50px;
+      height: 75px;
+      border-radius: 50%;
     }
+  }
+
   &_text {
     display: inline-flex;
     flex-direction: column;

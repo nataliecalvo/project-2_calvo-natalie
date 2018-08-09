@@ -114,6 +114,9 @@ body {
   margin: auto;
   &-intro {
     text-align: center;
+    &_cta {
+      clear: both;
+    }
     &_img {
       display: none;
       @media only screen and (min-width: 500px) {
@@ -226,10 +229,6 @@ body {
       clear: both;
       width: 100%;
       padding-top: 2%;
-      @media only screen and (min-width: 650px) {
-        display: grid;
-        grid-template-columns: [first] auto [second] auto;
-      }
       &-alpha, &-beta {
         @media-only screen and (min-width: 650px){
           width: 46%;
@@ -248,11 +247,17 @@ body {
   }
 }
 
+.testimonial_grid {
+  @media only screen and (min-width: 650px) {
+    display: grid;
+    grid-template-columns: [first] auto [second] auto;
+  }
+}
 .social {
   margin: auto;
   text-align: center;
   &_icons {
-    width: 5%;
+    width: 6%;
     padding: 1%;
   }
 }
@@ -309,17 +314,9 @@ figcaption {
     font-style: italic;
     float: left;
     clear: both;
-    margin-top: -50px;
     display: inline-block;
   }
 }
-
-.chip {
-  &_avatar {
-    background-image: url("../images/headshot.png");
-  }
-}
-
 
 .grid-container {
   display: block;
@@ -327,6 +324,7 @@ figcaption {
   @media only screen and (min-width: 500px) {
     display: grid;
     grid-template-columns: [first] auto [second] auto [third] auto;
+    column-gap: 2%;
     margin: 2%;
     clear: both;
   }

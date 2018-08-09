@@ -5,12 +5,14 @@
   text-decoration: none;
   font-size: 1rem;
   display: flex;
+  cursor: pointer;
   &-primary {
     background-color: $blue;
     color: $white;
     margin: 1%;
     border: none;
     padding: 2%;
+    cursor: pointer;
     &:hover {
       opacity: 0.7;
     }
@@ -20,6 +22,7 @@
     margin: 1%;
     color: $white;
     padding: 2%;
+    cursor: pointer;
     &:hover {
       opacity: .7;
       min-width: 45px;
@@ -30,6 +33,7 @@
     color: $white;
     margin: 1%;
     padding: 2%;
+    cursor: pointer;
   }
   &-login {
     background-color: $darkgrey;
@@ -41,8 +45,8 @@
     height: 65px;
     float: right;
     border: none;
-    cursor: pointer;
     text-align: center;
+    cursor: pointer;
     @media only screen and (min-width: 650px) {
       width: 100px;
       height: 100px;

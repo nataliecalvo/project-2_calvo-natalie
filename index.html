@@ -17,6 +17,7 @@
         <h1>What is That?</h1>
         <h2>The Vacation App</h2>
       </div>
+      <!--This modal works and validates using custom jQuery-->
       <nav class="loginnav">
         <button class="button-login" id="modal_trigger"><img src="images/login.svg" alt="Login avatar to be replaced with your headshot onced logged in." class="button-login_img"/>Login</button>
         <div class="modal" aria-hidden="true">
@@ -55,11 +56,11 @@
           </div>
           <figure>
             <img src="images/florence_cathedral.jpg" alt="A photograph of the dome of Florence Cathedral." class="main-intro_img"/>
-            <figcaption><span class="tooltip" title="The Cathedral is the fourth largest church in the world.">Florence Cathedral</span></figcaption>
+            <figcaption><span class="p" title="The Cathedral is the fourth largest church in the world.">Florence Cathedral</span></figcaption>
           </figure>
           <article class="main-intro_cta">
             <h5>At 99 cents a month, it's a heck of a lot cheaper than a tour guide!</h5>
-            <button class="button-primary" type="submit">Download the App</button>
+            <a href="https://www.apple.com/ios/app-store/" class="heading_link"><button class="button-primary" type="submit">Download the App</button></a>
           </article>
       </section>
       <section class="main_how">
@@ -95,27 +96,29 @@
           </figure>
           <article class="main-about_testimonial">
             <h4>Testimonials</h4>
-            <div class="main-about_testimonial-alpha">
-              <p>I recently took a trip to Italy and used What is That? constantly. I don't speak Italian, so, I couldn't ask people about what I was looking at. The app helped me learn the history of every building and artwork that caught my eye. Without it, I don't think I would have enjoyed the trip anywhere near as much.</p>
-              <div class="chip">
-                <div class="chip_avatar">
-                    <p class="chip_avatar-alpha"></p>
-                </div>
-                <div class="chip_text">
-                  <p class="chip_text-title">Natalie Calvo</p>
-                  <p class="chip_text-description">Currently exploring in Chicago</p>
+            <div class="testimonial_grid">
+              <div class="main-about_testimonial-alpha">
+                <p>I recently took a trip to Italy and used What is That? constantly. I don't speak Italian, so, I couldn't ask people about what I was looking at. The app helped me learn the history of every building and artwork that caught my eye. Without it, I don't think I would have enjoyed the trip anywhere near as much.</p>
+                <div class="chip">
+                  <div class="chip_avatar">
+                      <img src="images/headshot.png" alt="This is a photo of Natalie Calvo." class="chip_avatar-alpha"/>
+                  </div>
+                  <div class="chip_text">
+                    <p class="chip_text-title">Natalie Calvo</p>
+                    <p class="chip_text-description">Currently exploring in Chicago</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="main-about_testimonial-beta">
-              <p>I speak English and Spanish. On this trip to Cambodia, signs are in Khmer, and I don't understand any of it. What is That? has helped me navigate my vacation and has made it a lot easier for me to appreciate the beauty and history behind this country. I will definitely keep my membership active for future vacations.</p>
-              <div class="chip">
-                <div class="chip_avatar">
-                  <p class="chip_avatar-beta"></p>
-                </div>
-                <div class="chip_text">
-                  <p class="chip_text-title">Christy Pina</p>
-                  <p class="chip_text-description">Currently exploring in Cambodia</p>
+              <div class="main-about_testimonial-beta">
+                <p>I speak English and Spanish. On this trip to Cambodia, signs are in Khmer, and I don't understand any of it. What is That? has helped me navigate my vacation and has made it a lot easier for me to appreciate the beauty and history behind this country. I will definitely keep my membership active for future vacations.</p>
+                <div class="chip">
+                  <div class="chip_avatar">
+                    <img src="images/christy.png" alt="This is a photo of Christy Pina." class="chip_avatar-beta"/>
+                  </div>
+                  <div class="chip_text">
+                    <p class="chip_text-title">Christy Pina</p>
+                    <p class="chip_text-description">Currently exploring in Cambodia</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -140,18 +143,17 @@
               </div>
             </div>
             <h6>If all that sounds interesting, give our application a try by downloading it from the <a href="https://www.apple.com/ios/app-store/" class="heading_link">Apple App Store</a> or <a href="http://play.google.com/store/apps" class="heading_link">Google Play!</a></h6>
-            <button class="button-primary" type="submit">Download the App</button>
+            <a href="https://www.apple.com/ios/app-store/" class="heading_link"><button class="button-primary" type="submit">Download the App</button></a>
           </article>
       </section>
       <section class="main-contact" id="contact">
         <h3 class="main-contact_heading">Contact Us</h3>
-        <div class="social"><a href="facebook.com"><img class="social_icons" src="images/facebook.svg" alt="This is the social media icon for the Facebook platform"/></a><a href="twitter.com"><img class="social_icons" src="images/twitter.svg" alt="This is the social media icon for the Twitter platform"/></a><a href="instagram.com"><img class="social_icons" src="images/instagram.svg" alt="This is the social media icon for the Instagram platform"/></a></div>
-        <!--When you mouseover or mouseout on the text below, fun things happen.-->
-        <div class="share"></div>
-        <p>If you've got questions, concerns or feedback about our app we're always happy to hear it! We typically respond to messages within 48 hours!</p>
-        <!--The below text has been added using JavaScript.-->
-        <div id="welcome"></div>
+        <!--The below text has been added using custom JavaScript.-->
         <div id="message"></div>
+        <div class="social"><a href="facebook.com"><img class="social_icons" src="images/facebook.svg" alt="This is the social media icon for the Facebook platform"/></a><a href="twitter.com"><img class="social_icons" src="images/twitter.svg" alt="This is the social media icon for the Twitter platform"/></a><a href="instagram.com"><img class="social_icons" src="images/instagram.svg" alt="This is the social media icon for the Instagram platform"/></a></div>
+        <!--The below text has been added using custom JavaScript.-->
+        <div id="welcome"></div>
+        <!--This form validates using custom jQuery-->
         <div class="form">
           <div class="form_text">
             <input type="text" name="name" class="form_text-name" placeholder="Full Name" required/>
