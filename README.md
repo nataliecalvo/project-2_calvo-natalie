@@ -35,7 +35,7 @@ I used custom jQuery to operate the modal and validate the forms. This code can 
 
 #### Plugin 1
 [FlowType jQuery plugin](http://simplefocus.com/flowtype/)
--I used the FlowType jQuery plugin on this website to ensure that the length of each line on the page was optimized for user attention span.
+- I used the FlowType jQuery plugin on this website to ensure that the length of each line on the page was optimized for user attention span.
 
 #### Plugin 2
 [Tooltipster jQuery plugin](http://iamceege.github.io/tooltipster/)
