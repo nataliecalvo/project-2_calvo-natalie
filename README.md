@@ -6,10 +6,10 @@
 #### Link to website
 [A link to my Project 2 Webpage](http://nataliecalvo.com/project-2_calvo-natalie)
 
-####Link to W3C's Validator
+#### Link to W3C's Validator
 [W3 Validator](https://validator.w3.org/nu/?doc=http%3A%2F%2Fnataliecalvo.com%2Fproject-2_calvo-natalie%2F)
 
-####Link to HTML5 Outliner
+#### Link to HTML5 Outliner
 [HTML5 Outliner](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fnataliecalvo.com%2Fproject-2_calvo-natalie%2F)
 
 #### Link to my commit of the javascript code in the main.js file.
