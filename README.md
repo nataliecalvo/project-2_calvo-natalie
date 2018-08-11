@@ -22,6 +22,10 @@
 #### Resources
 -[Hamburger Menu Codepen](https://codepen.io/createlyn/pen/xJYmZx)
 I used this Codepen made by my lovely teacher to help make a hamburger menu!
+-[The Grid Codepen](https://codepen.io/createlyn/pen/bjLzdZ)
+I used this Codepen made by my wonderful teacher to help figure out the grids for my features and testimonials section.
+-[Form Validation Codepen](https://codepen.io/createlyn/pen/qyxgXp)
+I used this Codepen made by my fantastic teacher to help figure out the validation for my forms!
 
 #### Custom jQuery
 I used custom jQuery to operate the modal and validate the forms. This code can be found in the modal.js file and the main.js file.
